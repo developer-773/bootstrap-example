@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:url('../font/PlayfairDisplay-Black.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/PlayfairDisplay-Black.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src:url('../font/PlayfairDisplay-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../font/PlayfairDisplay-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.head-left > a, button{
+    text-decoration: underline;
+}
+
+.head-left a{
+    font-family: "Playfair Display",'Times New Roman', serif;
+    font-size: 2rem;
+}
+
+.w-50 a{
+    font-family: "Roboto", "Helvetica Neue",sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.h1{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: "Playfair Display","Times New Roman", serif;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        /* display: none; */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .h1{
+        font-size: 2rem;
+    }
+
+    .w-50{
+        width: 100% !important;
+    }
+}
+
+
+.shadow-sm h2{
+    font-family: "Playfair Display","Times New Roman", serif;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+.shadow-sm .fw-bold{
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+.blogpost h3{
+    font-family: "Playfair Display","Times New Roman", serif;
+    font-weight: 900;
+}
+
+.sample h3{
+    font-family: "Playfair Display","Times New Roman", serif;
+    font-weight: 700;
+}
+
+th, 
+td{
+padding: 15px;
+    border-bottom: 1px solid #0000001a;
+    text-align: start;
+}
+
+.aside .stick{
+    position: sticky !important;
+    top: 20px;
+}
+
+.title{
+    font-family: "Playfair Display","Times New Roman", serif;
+    font-weight: 900;
+}
+
+footer{
+    background-color: #f9f9f9;
+}
