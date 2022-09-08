@@ -2,8 +2,8 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-styles.css
+/css/styles.css
 
 FALLBACK:
 index.html
-styles.css
+/css/styles.css
