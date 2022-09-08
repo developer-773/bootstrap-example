@@ -74,11 +74,6 @@ a{
     font-style: italic;
 }
 
-@media only screen and (max-width: 768px) {
-    nav{
-        /* display: none; */
-    }
-}
 
 @media only screen and (max-width: 576px) {
     .h1{
